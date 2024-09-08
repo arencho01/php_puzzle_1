@@ -1,0 +1,29 @@
+*,
+*::before,
+*::after {
+   box-sizing: border-box;
+}
+
+body {
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+
+.task__title {
+   margin: 0 0 5px;
+}
+.task__res {
+   font-size: 18px;
+   color: green;
+
+   margin: 0 0 35px;
+}
+.task__res-true,
+.task__res-false {
+   font-weight: 600;
+   color: blue;
+}
+.task__res-false {
+   color: red;
+}
