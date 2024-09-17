@@ -12,19 +12,11 @@
 </head>
 <body>
    <div class="task">
-      <h3 class="task__title">Напишите функцию рассчета факториала числа n.</h3>
-      <p class="task__res">
-         Результат выполнения функции factorial($n), где $n - 4:
-         <br>
-         <? echo factorial(4) ?>
-      </p>
-   </div>
-   <div class="task">
       <h3 class="task__title">Создать функцию even_to_zero(int $number) Которая цифры на четных ПОЗИЦИЯХ занулит. Например, из 12345 получается число 10305. Внимание! Важна позиция цифры, а не значение.</h3>
       <p class="task__res">
          Результат выполнения функции event_to_zero(int $number), где $number - 12345:
          <br>
-         <? echo event_to_zero(12345) ?>
+         <? echo even_to_zero(12345) ?>
       </p>
    </div>
    <div class="task">
